@@ -1,0 +1,175 @@
+/* General Settings */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-color: #D4F1F4;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: #21B6A8;
+}
+
+h3,
+p {
+  color: #05445E;
+}
+
+li {
+  display:inline;
+  text-align: center;
+  font-size: 16px;
+}
+
+li a:hover {
+  background-color: #75e6da;
+}
+
+/* Header Area Settings */
+.header {
+  text-align: center;
+}
+
+/* Content Area Settings */
+.content {
+  text-align: center;
+  width: auto;
+  margin: auto;
+  font-size: 16px;
+}
+div{
+    text-align: center;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h5 {
+  text-align: center;
+  color: #05445E;
+}
+h4{
+    text-align: center;
+    color: #05445e; 
+}
+
+img {
+  border-radius: 50%;
+}
+
+/* Navigation Area Settings */
+.topnav-container {
+    text-align: center;
+    width:auto;
+  }
+  
+  .topnav {
+    display:inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .topnav li {
+    display: inline;
+  }
+  
+  .topnav li a {
+    display: inline-block;
+    padding: 10px 15px;
+
+    text-decoration: none;
+    color: white;
+    background-color: #116530;
+  }
+  
+  .topnav li a:hover {
+    background-color: #75e6da;
+    color: black;
+}
+
+/* Footer Area Settings */
+.footer {
+  position: bottom;
+  background-color: #116530;
+  color: white;
+  text-align: center;
+  width:auto;
+}
+
+
+/* Contact Form Settings */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 50px #D4F1F4;
+  border-radius: 50px;
+  box-sizing: border-box;
+  margin-top: 16px;
+  margin-bottom: 30px;
+  resize: none;
+}
+
+input[type=submit] {
+  background-color: #116530;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+label {
+  color: #05445E;
+  font-size: 16px;
+}
+
+/* Responsive Settings */
+@media only screen and (min-width: 1025px) {
+  .content {
+    text-align: center;
+    width: 55%;
+  }
+}
+@media only screen and (min-width: 650px) {
+    .row::after{ display: flex; flex-wrap: wrap; } .column { width: 100%; }
+   }
+   
+@media only screen and (min-width: 1025px) {
+   .row::after { display: flex; flex-wrap: wrap; } .column { width: 50%; }
+   }
+
+/* Social media links */
+
+.social{
+    text-align: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    position: relative;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: linear-gradient(#405de6, #5851db, #833ab4, #C13584, #e1306c, #fd1d1d);
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  p{
+    text-align: center;
+  }
+  
