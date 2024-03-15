@@ -7,23 +7,20 @@ body {
 }
 
 h1 {
-  color: #21B6A8;
+  color: #189ab4;
 }
 
-h3,
+h2{
+  color: #189ab4;
+}
+h3{
+  color: #05445E;
+}
 p {
   color: #05445E;
 }
 
-li {
-  display:inline;
-  text-align: center;
-  font-size: 16px;
-}
 
-li a:hover {
-  background-color: #75e6da;
-}
 
 /* Header Area Settings */
 .header {
@@ -45,7 +42,11 @@ div{
   clear: both;
   display: table;
 }
-
+.three {
+  color: #05445E;
+  font-size: larger;
+  font-weight: 500;
+}
 h5 {
   text-align: center;
   color: #05445E;
@@ -62,7 +63,6 @@ img {
 /* Navigation Area Settings */
 .topnav-container {
     text-align: center;
-    width:auto;
   }
   
   .topnav {
@@ -79,7 +79,6 @@ img {
   .topnav li a {
     display: inline-block;
     padding: 10px 15px;
-
     text-decoration: none;
     color: white;
     background-color: #116530;
@@ -97,6 +96,10 @@ img {
   color: white;
   text-align: center;
   width:auto;
+}
+.two {
+  color: white;
+  font-weight: 400;
 }
 
 
